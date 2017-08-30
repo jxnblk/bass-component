@@ -14,6 +14,7 @@ export default {
   h5: 'font-size: 14px',
   h6: 'font-size: 12px',
   bold: 'font-weight: bold',
+  center: 'text-align: center',
 
   // margin
   m0: 'margin: 0',
@@ -51,6 +52,15 @@ export default {
   my2: 'margin-top: 16px; margin-bottom: 16px',
   my3: 'margin-top: 32px; margin-bottom: 32px',
   my4: 'margin-top: 64px; margin-bottom: 64px',
+
+  'mx-1': 'margin-left: -8px; margin-right: -8px',
+  'mx-2': 'margin-left: -16px; margin-right: -16px',
+  'mx-3': 'margin-left: -32px; margin-right: -32px',
+  'mx-4': 'margin-left: -64px; margin-right: -64px',
+
+  mlAuto: 'margin-left: auto',
+  mrAuto: 'margin-right: auto',
+  mxAuto: 'margin-left: auto; margin-right: auto',
 
   // padding
   p0: 'padding: 0',
