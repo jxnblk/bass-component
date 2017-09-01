@@ -3,6 +3,14 @@
 
 React component for styling elements with a [Basscss][bass]-like API
 
+[![Build Status][build-badge]][build]
+[![GitHub][stars]][gh]
+
+[build-badge]: https://img.shields.io/travis/jxnblk/bass-component/master.svg?style=flat-square
+[build]: https://travis-ci.org/jxnblk/bass-component
+[gh]: https://github.com/jxnblk/bass-component
+[stars]: https://img.shields.io/github/stars/jxnblk/bass-component.svg?style=social&label=Star
+
 ```sh
 npm i bass-components
 ```

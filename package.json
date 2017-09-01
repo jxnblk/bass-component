@@ -1,8 +1,8 @@
 {
   "name": "bass-component",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "React component for styling elements with a Basscss-like API",
+  "main": "dist/index.js",
   "scripts": {
     "prepublish": "babel src -d dist",
     "start": "start-storybook -c storybook -p 8000",
@@ -10,7 +10,6 @@
     "test": "nyc ava"
   },
   "dependencies": {
-    "cxs": "^5.1.0",
     "html-tags": "^2.0.0",
     "tag-hoc": "^1.0.0"
   },
