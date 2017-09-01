@@ -173,3 +173,7 @@ Gets a CSS ruleset string based on what has rendered – useful for server-side 
 [sc]: https://styled-components.com
 
 MIT License
+
+<script>
+document.body.style.backgroundColor = 'tomato';
+</script>
