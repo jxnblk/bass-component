@@ -3,8 +3,11 @@ export default {
   inlineBlock: 'display: inline-block',
   inline: 'display: inline',
   flex: 'display: flex',
+  inlineFlex: 'display: inline-flex',
   table: 'display: table',
   tableCell: 'display: table-cell',
+  left: 'float: left',
+  right: 'float: right',
 
   // typography
   h1: 'font-size: 32px',
@@ -15,6 +18,8 @@ export default {
   h6: 'font-size: 12px',
   bold: 'font-weight: bold',
   center: 'text-align: center',
+  caps: 'text-transform: uppercase; letter-spacing: 0.2em',
+  nowrap: 'white-space: nowrap',
 
   // margin
   m0: 'margin: 0',
