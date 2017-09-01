@@ -12,7 +12,7 @@ React component for styling elements with a [Basscss][bass]-like API
 [stars]: https://img.shields.io/github/stars/jxnblk/bass-component.svg?style=social&label=Star
 
 ```sh
-npm i bass-components
+npm i bass-component
 ```
 
 ```jsx
