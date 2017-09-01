@@ -1,16 +1,19 @@
 {
-  "name": "bass-styled",
+  "name": "bass-component",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prepublish": "babel src -d dist",
     "start": "start-storybook -c storybook -p 8000",
     "size": "bundlesize",
     "test": "nyc ava"
   },
-  "keywords": [],
-  "author": "Brent Jackson",
-  "license": "MIT",
+  "dependencies": {
+    "cxs": "^5.1.0",
+    "html-tags": "^2.0.0",
+    "tag-hoc": "^1.0.0"
+  },
   "devDependencies": {
     "@storybook/react": "^3.2.8",
     "ava": "^0.22.0",
@@ -28,6 +31,9 @@
     "webpack": "^3.5.5",
     "webpack-dev-server": "^2.7.1"
   },
+  "keywords": [],
+  "author": "Brent Jackson",
+  "license": "MIT",
   "ava": {
     "require": [
       "babel-register"

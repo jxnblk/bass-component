@@ -2,7 +2,10 @@ import React from 'react'
 import { configure, addDecorator } from '@storybook/react'
 
 addDecorator(story => (
-  <div>
+  <div style={{
+    fontFamily: 'sans-serif',
+    lineHeight: 1.5
+  }}>
     {story()}
   </div>
 ))

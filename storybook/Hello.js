@@ -1,8 +1,6 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-import bass from '../src'
-
-const Bass = bass('div')
+import Bass from '../src'
 
 storiesOf('Hello', module)
   .add('hello', () => (
@@ -15,4 +13,17 @@ storiesOf('Hello', module)
       <Bass inlineBlock m2>Hello</Bass>
       <Bass inlineBlock m2>Hello</Bass>
     </div>
+  ))
+  .add('h1', () => (
+    <Bass.h1
+      h1
+      children='Hello'
+    />
+  ))
+  .add('input', () => (
+    <Bass.input
+      h1
+      m0
+      defaultValue='hello'
+    />
   ))

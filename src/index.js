@@ -1,4 +1,6 @@
 import React from 'react'
+import tags from 'html-tags'
+import tagHOC from 'tag-hoc'
 import styles from './styles'
 
 let cache = {}
@@ -42,8 +44,15 @@ if (typeof document !== 'undefined') {
   }
 }
 
-const styled = type => props => React.createElement(type, css(props))
+const comp = type => props => React.createElement(tagHOC([])(type), css(props))
 
-styled.css = () => rules.join('')
+const Div = comp('div')
 
-export default styled
+const Bass = tags
+  .map(tag => comp(tag))
+  .reduce((a, b, i) => Object.assign(a, { [tags[i]]: b }), Div)
+
+Bass.css = () => rules.join('')
+Bass.component = comp
+
+export default Bass
