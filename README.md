@@ -175,5 +175,4 @@ Gets a CSS ruleset string based on what has rendered – useful for server-side 
 MIT License
 
 <script>
-document.body.style.backgroundColor = 'tomato';
 </script>
